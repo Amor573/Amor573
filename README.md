@@ -23,6 +23,20 @@ My interests sit at the intersection of Linux administration, cloud infrastructu
 
 ## 🚀 Featured projects
 
+### [DevOps CI/CD Reference Pipeline](https://github.com/Amor573/devops-cicd-reference-pipeline)
+A working Python HTTP service with automated tests, Docker packaging, GitHub Actions verification and GitHub Container Registry image publishing, plus Helm deployment manifests for Kubernetes/OpenShift.
+
+**Focus:** GitHub Actions · Python · Docker · GHCR · Helm · Kubernetes · CI/CD
+
+[See the source and CI runs →](https://github.com/Amor573/devops-cicd-reference-pipeline#readme)
+
+### [OpenShift Platform Engineering Lab](https://github.com/Amor573/1.-openshift-platform-engineering-lab)
+Hands-on labs for namespace RBAC, service accounts, RBD-backed PVCs, storage troubleshooting, OADP/Velero recovery and ODF service integration.
+
+**Focus:** OpenShift · RBAC · ODF/RBD · OADP · Storage · Disaster Recovery
+
+[Explore five labs and their validation tracker →](https://github.com/Amor573/1.-openshift-platform-engineering-lab#readme)
+
 ### [Azure Kubernetes Service with Terraform](https://github.com/Amor573/Terraform-Aks)
 Terraform modules for provisioning an Azure resource group and AKS cluster, with a Kubernetes/Helm-based Datadog integration.
 
@@ -68,11 +82,11 @@ An introductory Build → Test → Deploy pipeline scaffold, with a documented r
 
 ## 🔧 What I'm building next
 
-- **DevOps CI/CD reference pipeline:** automated tests → container build → GitHub Container Registry → Helm deployment manifests
-- **OpenShift platform engineering lab:** RBAC, persistent storage, ODF, OADP/Velero, troubleshooting and recovery
-- **Terraform/Ansible improvements:** safer variables, reusable modules, validation, automated checks and deployment evidence
+- **DevOps CI/CD reference pipeline:** validate the first successful CI/registry publish and a controlled Kubernetes/OpenShift rollout.
+- **OpenShift platform engineering lab:** run the five labs on a disposable cluster and capture redacted evidence.
+- **Terraform/Ansible improvements:** safer variables, reusable modules, validation, automated checks and deployment evidence.
 
-These are **in progress**; I'll link them here once published and verified.
+The repositories above contain the lab implementations. Live cluster testing and production hardening are further steps.
 
 ## 🧭 How I approach engineering
 
